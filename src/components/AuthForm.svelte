@@ -22,15 +22,14 @@
     }
 </style>
 
-<h1 class="title has-text-info has-text-centered">CareerGuru Chat</h1>
 <h2 class="title">{mode === 'signIn' ? 'Sign In' : 'Sign Up'}</h2>
 <form on:submit|preventDefault={handleSubmit}>
     <div class="field">
-        <label class="label">Email</label>
+        <label class="label" for="email">Email</label>
         <input type="email" class="input" bind:value={email} required />
     </div>
     <div class="field">
-        <label class="label">Password</label>
+        <label class="label" for="password">Password</label>
         <input type="password" class="input" bind:value={password} required />
     </div>
     <div class="field">
