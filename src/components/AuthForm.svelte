@@ -22,7 +22,7 @@
     }
 </style>
 
-<h1 class="title has-text-info has-text-centered">Svelte Chat</h1>
+<h1 class="title has-text-info has-text-centered">CareerGuru Chat</h1>
 <h2 class="title">{mode === 'signIn' ? 'Sign In' : 'Sign Up'}</h2>
 <form on:submit|preventDefault={handleSubmit}>
     <div class="field">
